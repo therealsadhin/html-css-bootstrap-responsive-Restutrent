@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Playfair Display", serif;;
+}
+
+:root{
+    --primary--color:#303030;
+    --secondary--color:#fec200;
+    --text--color:#ffffff;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.uni-btn{
+    background-color: var(--secondary--color);
+    color: var(--primary--color);
+    padding: 5px 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* header deisgn  */
+
+header{
+    background:linear-gradient(rgba(49, 46, 46, 0.623),rgba(65, 55, 55, 0.384)) , url(../images/header-bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* navbar design  */
+.navbar-brand{
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--secondary--color);
+}
+#logo-icon{
+    font-size: 60px;
+}
+
+#navlist{
+    margin-right: 30px;
+}
+#navlist .nav-item{
+    margin-right: 20px;
+    
+}
+.nav-item a{
+    color: var(--text--color);
+
+}
+.navbar-brand:hover {
+    color: #fec200;
+
+}
+.nav-link:hover{
+    color: var(--secondary--color)!important;
+}
+
+/* header body design  */
+#header-body{
+    background-color: var(--primary--color);
+    opacity: 0.9;
+
+}
+#header-body h2{
+    font-size: 80px;
+    color: var(--secondary--color);
+}
+
+#header-body p{
+    font-size: 20px;
+}
+
+/* promo start  */
+#promo{
+    background-color: var(--primary--color) ;
+}
+.promo-container{
+    padding: 100px 0;
+}
+#promo-img{
+    height:300px;
+    width: 300px;
+}
+#promo-text h2{
+    color: var(--secondary--color);
+    font-size: 60px;
+}
+#promo-text p{
+    color: var(--text--color);
+}
+
+/* statstic start  */
+/* #statstic{
+    background: var(--secondary--color);
+} */
+.circle{
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid var(--secondary--color);
+    margin-bottom: 50px;
+    padding: 90px 100px;
+    background-color: var(--primary--color);
+    color:var(--text--color);
+}
+.circle h2{
+    font-size: 50px;
+}
+
+@media screen and (max-width:990px) {
+    .circle{
+        text-align: center;
+        border-radius: 50%;
+        border: 2px solid var(--secondary--color);
+        margin-bottom: 50px;
+        padding: 90px 100px;
+        background-color: var(--primary--color);
+        color:var(--text--color);
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width:760px) {
+    .circle{
+        text-align: center;
+        border-radius: 50%;
+        border: 2px solid var(--secondary--color);
+        margin-bottom: 50px;
+
+        background-color: var(--primary--color);
+        color:var(--text--color);
+    
+    }
+}
+
+
+/* chiken grill  */
+#chiken-grill{
+    background-color: var(--primary--color) ;
+}
+@media screen and (max-width:760px) {
+    .stastic-text{
+        margin-bottom: 50px;
+    }
+    /* #promo-img{
+        margin-top: 50px;
+    } */
+}
+
+/* about strat  */
+#about{
+    background: url(../images/shape_3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* subscribe  */
+form input{
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: #ebe2e2;
+    padding: 15px ;
+}
+form label{
+    background-color: var(--secondary--color);
+    padding: 15px ;
+    transform: translate(-10px);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+/* footer start here  */
+
+#contact{
+    background-color: var(--primary--color);
+    color: var(--text--color);
+}
+#contact box-icon{
+    background-color: var(--text--color);
+    border-radius: 50%;
+    margin: 5px;
+}
+#footer-about ul{
+    list-style-type: none;
+   padding-left: 0;
+}
+#footer-about ul li a{
+    text-decoration: none;
+    color: var(--text--color);
+}
